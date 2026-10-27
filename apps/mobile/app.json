@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Lingua",
+    "slug": "lingua-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "lingua",
+    "splash": {
+      "backgroundColor": "#4f46e5"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "io.lingua.mobile",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Lingua requires microphone access to record and evaluate your pronunciation in language drills."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#4f46e5"
+      },
+      "package": "io.lingua.mobile",
+      "permissions": ["RECORD_AUDIO"]
+    },
+    "plugins": ["expo-router"]
+  }
+}
